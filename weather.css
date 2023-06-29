@@ -27,6 +27,12 @@
     }
 }
 
+@media(max-width:375px){
+    #inp{
+        margin-top: 3rem;
+    }
+}
+
 @media(min-width:425px){
     #result{
         width: 50%;
