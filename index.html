@@ -10,22 +10,24 @@
 </head>
 <body class="text-center bg-info-subtle">
     <h1 class="text-center mt-3" style="color: rgb(40, 87, 144);">WEATHER REPORT</h1>
+<div id="main">
     <div class="row">
         <div class="col col-sm-6">
             <figure>
-                <img src="./pic.png" alt="" width="200px" height="200px">
+                <img src="./pic.png" alt="" width="200px" height="200px" style="align-content: center;">
                 <figcaption id="atmos"></figcaption>
             </figure>
             <p id="para"></p>
         </div>
         <div class="col col-sm-6">
-            <form id="inp" action="" class="form-control border-0 container w-50 bg-info-subtle mt-sm-5 mt-md-5">
+            <form id="inp" action="" class="form-control border-0 container bg-info-subtle mt-sm-5 mt-md-5">
                 <input id="cname" type="text" class="text-center form-control" placeholder="Enter City Name">
                 <button type="button" onclick="searchData()" class="btn btn-info mt-3 mb-1">Search</button>
                 <div id="clear"></div>
             </form>
         </div>
     </div>
+</div>
 
     <div id="result" class="container border bg-warning-subtle mt-3">
     </div>

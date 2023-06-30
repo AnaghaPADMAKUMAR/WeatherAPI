@@ -33,8 +33,30 @@
     }
 }
 
-@media(min-width:425px){
+@media(max-width:320px){
+    #inp{
+        margin-top: 0%;
+    }
+}
+
+@media(min-width:768px){
     #result{
         width: 50%;
+    }
+}
+
+@media(min-width:768px){
+    #inp{
+        width: 50%;
+    }
+}
+
+@media(min-width:1024px){
+    #main{
+        width: 50%;
+        margin: auto;
+    }
+    #inp{
+        width: 100%;
     }
 }
